@@ -68,7 +68,7 @@ class CeevoGatewayServiceProvider extends ServiceProvider
                 {
                     if($event->getMop() == $paymentHelper->getMop())
                     {
-                        $event->setValue('<h1>Nachnahme<h1>');
+                        $event->setValue('<h1>Ceevo<h1>');
                         $event->setType('htmlContent');
                     }
                 });
