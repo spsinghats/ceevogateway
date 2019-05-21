@@ -124,7 +124,7 @@ class CeevoGatewayPaymentMethod extends PaymentMethodService
         if(strlen($name) > 0) {
             return $name;
         } 
-        return 'cash on delivery';
+        return 'ceevo gateway';
     }
 
     public function getIcon()
